@@ -1,0 +1,173 @@
+*   {
+    box-sizing: border-box;
+    }
+
+    body,html {
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        height: 70px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+        background: #fff;
+    }
+    .header-inner {
+        width: 960px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name {
+        font-family: 'Georgia', Times,'Times New Roman', serif;
+        color: #fff;
+        font-size: 35px;
+        background: #018579;
+        height: 70px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+    .nav {
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 20px;
+    }
+     .nav a {
+         text-decoration: silver;
+         font-family:"custom" 'Georgia', Times,'Times New Roman', serif;
+         color: #666666;
+         padding: 10px;
+         border-right: 1px solid #666666;
+         height: 10px; 
+     }
+     body {
+        background-image: url(../images/topography.png);
+    }
+    h1 {
+        
+        font-family: 'Georgia', Times,'Times New Roman', serif;
+        color: #fff;
+        font-size: 30px;
+        background: #018579;
+        
+     }
+    .wrapper {
+          width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+          
+    }
+    .content {
+        background: #fff;
+    } 
+    h2 {
+        padding: 15px;
+        color: #018579;
+        font-family: 'Georgia', Times,'Times New Roman', serif;
+        font-size: 30px;
+        background: #fff;
+        border-bottom: 3px solid #666666;
+    }
+    h3 {
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+          color: #777777;
+          font-size: 20px;
+          background: #fff;
+          padding-left: 20px;
+    }
+    .content-box {
+        display: flex;
+    }  
+    .photo {
+        flex: 1;
+        padding-top: 28px;
+        padding-left: 65px;
+    }
+    .paragraph1 {
+          flex: 3;
+          text-align: center;
+          font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+          color: #777777;
+          font-size: 20px;
+          background: #fff;
+          padding-right: 30px; 
+          padding-top: 10px;
+    }
+    p {
+        text-align: justify;
+          font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+          color: #777777;
+          font-size: 20px;
+          background: #fff;
+          padding-left: 10px;
+          padding-right: 10px;
+    }
+      footer {
+          position: absolute;
+          bottom: 0;
+          border-top: 6px solid #018579;
+          font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+          font-size: 15px;
+          color: #777777; 
+          padding: 20px;
+          margin-bottom: 0;
+          background: #666666;
+          text-align: center;
+          width: 100%;
+      }
+      .box {
+          position: relative;
+          bottom: 200 px;
+      }
+      .box-1 {
+          right: 20px;
+      }
+      .box-2 {
+          left:360px;
+          bottom: 275px;
+      }
+      .box-3 {
+          bottom: 240px;
+          right: 20px;
+      }
+      .box-4 {
+          left: 360px;
+          bottom: 512px;
+      }
+      .box-5 {
+          bottom: 480px;
+          right: 20px;
+      }
+      .footer-portfolio {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+      }
+      .textusername {
+        padding-left:20px;
+        width: 940px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .textemail {
+        padding-left: 20px;
+        width: 940px;
+        height: 50px;
+        font-size: 15px;
+      }
+      .textmessage {
+        width: 940px;
+        height: 150px;
+        padding-bottom: 20px;
+      }
+      .btn {
+        color: #fff;
+        font-family: 'Georgia', Times,'Times New Roman', serif;
+        background: #018579;
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+      }
+     
